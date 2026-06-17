@@ -15,7 +15,7 @@ public class Ex05 {
 			numero = leia.nextInt();
 			
 			
-			if (numero > 0) {
+			if (numero > 0 && numero < 0) {
 				soma += numero;
 			}
 		} while (numero != 0);
